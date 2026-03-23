@@ -8,25 +8,25 @@
 }
 
 :root {
-  --primary: #0ea5e9;
-  --primary-hover: #0284c7;
-  --primary-light: #e0f2fe;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #dbeafe;
   --secondary: #64748b;
   --success: #10b981;
   --warning: #f59e0b;
   --danger: #ef4444;
-  --background: #f0f9ff;
+  --background: #eff6ff;
   --foreground: #0f172a;
   --card: #ffffff;
-  --border: #cbd5e1;
-  --muted: #f8fafc;
+  --border: #bfdbfe;
+  --muted: #f8fbff;
   --muted-foreground: #64748b;
   --radius: 12px;
 }
 
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 30%, #fefefe 70%, #f8fafc 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 35%, #ffffff 70%, #f0f9ff 100%);
   background-attachment: fixed;
   color: var(--foreground);
   line-height: 1.6;
@@ -42,10 +42,10 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(circle at 20% 50%, rgba(14, 165, 233, 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(2, 132, 199, 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 40% 20%, rgba(56, 189, 248, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 90% 10%, rgba(125, 211, 252, 0.02) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(29, 78, 216, 0.07) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(96, 165, 250, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 90% 10%, rgba(191, 219, 254, 0.08) 0%, transparent 50%);
   pointer-events: none;
   z-index: -1;
 }
@@ -133,11 +133,11 @@ img {
 }
 
 .card {
-  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-  border: 1px solid rgba(203, 213, 225, 0.8);
+  background: linear-gradient(135deg, #ffffff 0%, #eff6ff 100%);
+  border: 1px solid rgba(191, 219, 254, 0.9);
   border-radius: var(--radius);
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.06);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.08);
 }
 
 .input-group {
